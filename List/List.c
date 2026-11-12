@@ -48,10 +48,10 @@ int list_add_item(List_t * list, ListItem_t * li){
 	if(!li->next){
 		nextItem->next = li;
 	}else{
-		return(0);
+		return (0);
 	}
 
-	return(1);
+	return (1);
 }
 
 /*
